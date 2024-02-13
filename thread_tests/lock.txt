@@ -1,0 +1,708 @@
+===================Making=================================================
+rm -f *~ *.o thread_test thread_test_malloc_free thread_test_malloc_free_change_thread thread_test_measurement
+gcc -O3 -I../ -DLOCK_VERSION -L../ -Wl,-rpath=../ -o thread_test thread_test.c -lmymalloc -lrt -lpthread
+gcc -O3 -I../ -DLOCK_VERSION -L../ -Wl,-rpath=../ -o thread_test_malloc_free thread_test_malloc_free.c -lmymalloc -lrt -lpthread
+gcc -O3 -I../ -DLOCK_VERSION -L../ -Wl,-rpath=../ -o thread_test_malloc_free_change_thread thread_test_malloc_free_change_thread.c -lmymalloc -lrt -lpthread
+gcc -O3 -I../ -DLOCK_VERSION -L../ -Wl,-rpath=../ -o thread_test_measurement thread_test_measurement.c -lmymalloc -lrt -lpthread
+====================1 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================1 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================1 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.038777 seconds
+Data Segment Size = 43418384 bytes
+====================2 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================2 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================2 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.924576 seconds
+Data Segment Size = 43704288 bytes
+====================3 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================3 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================3 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.961815 seconds
+Data Segment Size = 43277512 bytes
+====================4 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================4 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================4 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.279201 seconds
+Data Segment Size = 43043512 bytes
+====================5 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================5 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================5 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.746717 seconds
+Data Segment Size = 45226024 bytes
+====================6 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================6 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================6 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.120454 seconds
+Data Segment Size = 43345744 bytes
+====================7 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================7 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================7 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.970890 seconds
+Data Segment Size = 43777688 bytes
+====================8 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================8 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================8 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.289312 seconds
+Data Segment Size = 43094312 bytes
+====================9 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================9 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================9 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.903423 seconds
+Data Segment Size = 43681752 bytes
+====================10 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================10 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================10 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.291229 seconds
+Data Segment Size = 43043432 bytes
+====================11 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================11 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================11 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.035812 seconds
+Data Segment Size = 44188744 bytes
+====================12 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================12 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================12 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.884387 seconds
+Data Segment Size = 44080928 bytes
+====================13 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================13 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================13 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.947422 seconds
+Data Segment Size = 43860712 bytes
+====================14 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================14 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================14 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.016624 seconds
+Data Segment Size = 43491440 bytes
+====================15 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================15 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================15 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.275407 seconds
+Data Segment Size = 43065456 bytes
+====================16 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================16 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================16 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.530985 seconds
+Data Segment Size = 42489672 bytes
+====================17 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================17 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================17 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.336821 seconds
+Data Segment Size = 42678992 bytes
+====================18 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================18 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================18 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.029821 seconds
+Data Segment Size = 44065352 bytes
+====================19 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================19 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================19 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.146684 seconds
+Data Segment Size = 43231192 bytes
+====================20 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================20 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================20 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.716570 seconds
+Data Segment Size = 44804952 bytes
+====================21 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================21 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================21 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.833593 seconds
+Data Segment Size = 44467792 bytes
+====================22 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================22 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================22 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.833381 seconds
+Data Segment Size = 45007792 bytes
+====================23 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================23 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================23 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.387738 seconds
+Data Segment Size = 44985712 bytes
+====================24 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================24 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================24 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.229584 seconds
+Data Segment Size = 42936192 bytes
+====================25 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================25 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================25 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.160600 seconds
+Data Segment Size = 43857320 bytes
+====================26 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================26 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================26 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.695274 seconds
+Data Segment Size = 45498568 bytes
+====================27 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================27 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================27 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.112081 seconds
+Data Segment Size = 43109088 bytes
+====================28 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================28 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================28 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.599731 seconds
+Data Segment Size = 44129112 bytes
+====================29 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================29 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================29 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.852238 seconds
+Data Segment Size = 44592832 bytes
+====================30 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================30 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================30 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.160102 seconds
+Data Segment Size = 42857992 bytes
+====================31 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================31 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================31 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.952233 seconds
+Data Segment Size = 44136280 bytes
+====================32 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================32 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================32 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.969823 seconds
+Data Segment Size = 43843240 bytes
+====================33 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================33 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================33 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.983952 seconds
+Data Segment Size = 43506992 bytes
+====================34 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================34 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================34 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.883298 seconds
+Data Segment Size = 44284440 bytes
+====================35 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================35 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================35 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.875556 seconds
+Data Segment Size = 43016048 bytes
+====================36 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================36 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================36 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.069463 seconds
+Data Segment Size = 43584920 bytes
+====================37 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================37 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================37 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.912726 seconds
+Data Segment Size = 43460256 bytes
+====================38 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================38 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================38 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.883582 seconds
+Data Segment Size = 44402768 bytes
+====================39 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================39 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================39 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.916468 seconds
+Data Segment Size = 44278848 bytes
+====================40 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================40 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================40 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.176742 seconds
+Data Segment Size = 43572040 bytes
+====================41 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================41 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================41 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.353752 seconds
+Data Segment Size = 46295120 bytes
+====================42 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================42 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================42 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.643492 seconds
+Data Segment Size = 45083392 bytes
+====================43 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================43 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================43 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.305991 seconds
+Data Segment Size = 42507080 bytes
+====================44 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================44 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================44 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.364330 seconds
+Data Segment Size = 46438736 bytes
+====================45 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================45 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================45 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.091712 seconds
+Data Segment Size = 43343984 bytes
+====================46 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================46 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================46 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.736384 seconds
+Data Segment Size = 44377728 bytes
+====================47 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================47 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================47 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.063063 seconds
+Data Segment Size = 43798376 bytes
+====================48 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================48 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================48 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 1.173906 seconds
+Data Segment Size = 43830608 bytes
+====================49 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================49 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================49 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.996636 seconds
+Data Segment Size = 43769768 bytes
+====================50 Testing thread_test===============================
+No overlapping allocated regions found!
+Test passed
+====================Testing thread_test_malloc_free======================
+No overlapping allocated regions found!
+Test passed
+====================50 Testing thread_test_malloc_free_change_thread=====
+No overlapping allocated regions found!
+Test passed
+====================50 thread_test_measurement===========================
+No overlapping allocated regions found!
+Test passed
+Execution Time = 0.879646 seconds
+Data Segment Size = 43848896 bytes
+===================Cleaning===============================================
+rm -f *~ *.o thread_test thread_test_malloc_free thread_test_malloc_free_change_thread thread_test_measurement
